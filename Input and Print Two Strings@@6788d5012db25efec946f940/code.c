@@ -4,6 +4,6 @@ int main() {
     char str[10], str2[10];
     scanf("%s", str);
     scanf("%s", str2);
-    printf("%s and %s",str,str2)
+    printf("%s and %s",str,str2);
     return 0;
 }
