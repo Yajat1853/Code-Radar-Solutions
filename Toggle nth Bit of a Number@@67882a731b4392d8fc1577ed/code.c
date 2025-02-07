@@ -4,7 +4,7 @@ int main() {
     int num , n , toggle;
     scanf("%d",&num);
     scanf("%d",&n);
-    toggle = ~(num);
+    toggle = ~(n);
     printf("%d", toggle);
     return 0;
 }
