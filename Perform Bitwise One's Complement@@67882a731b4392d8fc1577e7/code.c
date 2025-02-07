@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a, one compliment;
+    int a, one_compliment;
     scanf("%d",&a);
-    one compliment = ~a;
+    one_compliment = ~a;
     printf("%d",one compliment);
     return 0;
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
