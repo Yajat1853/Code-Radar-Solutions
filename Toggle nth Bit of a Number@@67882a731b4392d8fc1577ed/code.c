@@ -8,7 +8,7 @@ int main() {
     int num, n;
     scanf("%d", &num);
     scanf("%d", &n);
-    toggleNthBit(num, n);
+    toggleNthBit(&num,&n);
     printf("%d", num);
     return 0;
 }
