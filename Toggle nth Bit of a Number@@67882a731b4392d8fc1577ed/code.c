@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void toggleNthBit(int *num, int n) {
-    *num = *num ^ (1 << n);
+def toggleNthBit(int *num, int n) {
+    return num ^ (1 << n);
 }
 
 int main() {
@@ -12,9 +12,9 @@ int main() {
 
     scanf("%d", &n);
 
-    toggleNthBit(&num, n);
+    result = toggleNthBit(num, n);
 
-    printf("%d", num);
+    printf("%d", result);
 
     return 0;
 }
