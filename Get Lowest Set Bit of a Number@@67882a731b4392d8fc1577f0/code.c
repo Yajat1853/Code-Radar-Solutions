@@ -1,13 +1,21 @@
 #include <stdio.h>
 
-int nthbit(int num) {
-    return num & -num;
+int lowestSetBitPosition(int num) {
+    if (num == 0) return -1;  // If no set bits, return -1.
+    int position = 0;
+    while (!(num & 1)) {  // Check the rightmost bit
+        num >>= 1;  // Shift the number to the right
+        position++;
+    }
+    return position;
 }
 
 int main() {
-    int num , lowest_bit;
-    scanf("%d",&num);
-    lowest_bit = nthbit(num);
-    printf("%d", lowest_bit);
+    int num;
+    scanf("%d", &num);  // Enter the number
+
+    int position = lowestSetBitPosition(num);
+    printf("Position of the lowest set bit: %d\n", position);
+
     return 0;
 }
