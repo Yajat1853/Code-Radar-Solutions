@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-def toggleNthBit(int *num, int n) {
+void toggleNthBit(int *num, int n) {
     *num = *num ^ (1 << n);
 }
 
