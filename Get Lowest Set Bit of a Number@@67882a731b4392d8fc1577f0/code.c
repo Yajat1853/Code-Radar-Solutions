@@ -15,7 +15,7 @@ int main() {
     scanf("%d", &num);  // Enter the number
 
     int position = lowestSetBitPosition(num);
-    printf("Position of the lowest set bit: %d\n", position);
+    printf("%d\n", position);
 
     return 0;
 }
