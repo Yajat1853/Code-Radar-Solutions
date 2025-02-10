@@ -14,7 +14,7 @@ int main() {
 
     result = toggleNthBit(num, n);
 
-    printf("%d", result);
+    printf(f"{result}");
 
     return 0;
 }
