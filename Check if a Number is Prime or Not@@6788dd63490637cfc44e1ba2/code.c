@@ -7,12 +7,11 @@ int prime(int n) {
             count++;
         }
     }
-    return count;  // Move return statement here, after the loop
+    return count;  
 }
 
 int main() {
     int n, fact_count;
-    printf("Enter a positive number: ");
     scanf("%d", &n);
 
     fact_count = prime(n);
