@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-#include<c.type>
+#include<ctype.h>
 
 int main() {
     char ch;
@@ -20,5 +20,5 @@ int main() {
     else {
         printf("Special Character");
     }
-    
+    return 0;
 }
