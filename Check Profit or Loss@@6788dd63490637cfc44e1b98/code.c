@@ -7,6 +7,6 @@ scanf("%d",&s-p);
 
 if (c-p > s-p) {
     printf("Profit");
-} else {
+} else if (c-p == s-p) {
     printf("Loss");
 }
