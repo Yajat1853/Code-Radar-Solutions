@@ -1,13 +1,14 @@
 // Your code here....
 #include<stdio.h>
-int main(){
-    int c-p,s-p ;
-    scanf("%d",&c-p);
-    scanf("%d",&s-p);
 
-    if(c-p > s-p) {
+int main(){
+    int cp,sp ;
+    scanf("%d",&cp);
+    scanf("%d",&sp);
+
+    if(cp > sp) {
         printf("Profit");
-    } else if(c-p == s-p) {
+    } else if(cp == sp) {
         printf("No Profit No Loss");
     } else {
         printf("Loss");
