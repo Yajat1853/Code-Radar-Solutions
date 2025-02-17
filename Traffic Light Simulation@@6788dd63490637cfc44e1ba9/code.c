@@ -7,10 +7,10 @@ int main() {
     if (c == 'R') {
         printf("Stop");
     } 
-    else if (c == "G") {
+    else if (c == 'G') {
         printf("Go");
     }
-    else if (c == "Y") {
+    else if (c == 'Y') {
         printf("Slow Down");
     }
     else {
