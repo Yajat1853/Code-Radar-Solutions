@@ -2,15 +2,15 @@
 #include<stdio.h>
 
 int main() {
-    char ch;
-    scanf("%c",&ch);
-    if (ch == 'R') {
+    char c;
+    scanf("%c",&c);
+    if (c == 'R') {
         printf("Stop");
     } 
-    else if (ch == "G") {
+    else if (c == "G") {
         printf("Go");
     }
-    else if (ch == "Y") {
+    else if (c == "Y") {
         printf("Slow Down");
     }
     else {
