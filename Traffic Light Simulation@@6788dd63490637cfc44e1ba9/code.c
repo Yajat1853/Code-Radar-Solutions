@@ -2,8 +2,8 @@
 #include<stdio.h>
 
 int main() {
-    char[10] c;
-    scanf("%s",&c);
+    char c;
+    scanf(" %c",&c);
     if (c == 'R') {
         printf("Stop");
     } 
