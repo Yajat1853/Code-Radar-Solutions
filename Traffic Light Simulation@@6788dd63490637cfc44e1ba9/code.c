@@ -1,7 +1,7 @@
 // Your code here...
 int main() {
     char ch;
-    scanf("%c",&ch);
+    scanf(" %c",&ch);
     if (ch == 'R') {
         printf("Stop");
     } 
