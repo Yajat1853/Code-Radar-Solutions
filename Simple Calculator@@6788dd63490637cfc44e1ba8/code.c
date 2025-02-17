@@ -15,4 +15,5 @@ int main() {
     } else if(ch == '/'){
         printf("%d",a / b);
     }
+    return 0;
 }
