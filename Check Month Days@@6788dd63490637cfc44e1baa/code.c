@@ -10,7 +10,7 @@ int main() {
     else if (n == 2){
         printf("28");
     }
-    else if (n == 1 || n == 3 || n == 5 || n == 7 || n == 9 || n == 11) {
+    else if (n == 1 || n == 3 || n == 5 || n == 7 || n == 9 || n == 11 || n == 12) {
         printf("31");
     }
     else {
