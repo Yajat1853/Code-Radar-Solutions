@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    unsigned int num, flipped = 0;
+    unsigned int num = 0, flipped = 0;
 
     scanf("%u", &num);
     flipped = ~num;
