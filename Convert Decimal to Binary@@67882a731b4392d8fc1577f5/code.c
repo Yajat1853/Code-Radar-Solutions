@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 void print_bits(int num) {
+    if (num == 0) {
+        printf("0");}
     int started = 0; 
     
     for (int i = 31; i >= 0; i--) {
