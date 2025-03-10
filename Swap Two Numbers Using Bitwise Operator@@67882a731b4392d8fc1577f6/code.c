@@ -12,7 +12,7 @@ int main() {
     a = a ^ b; // Step 3
 
     // Output the swapped numbers
-    printf("%d\n", a);
+    printf("%d", a);
     printf("%d\n", b);
 
     return 0;
