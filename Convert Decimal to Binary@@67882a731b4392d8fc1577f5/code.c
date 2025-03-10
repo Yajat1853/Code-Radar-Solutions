@@ -1,9 +1,26 @@
-// Your code here...
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    unsigned int n ;
-    scanf("%d",&n);
-    printf("%u\n",n);
+void print_bits(int num) {
+    int started = 0; 
+    
+    for (int i = 31; i >= 0; i--) {
+        int bit = (num >> i) & 1;  
+        
+       
+        if (bit == 1 || started) {
+            printf("%d", bit);
+            started = 1;
+        }
+    }
+    
+    printf("\n");
+}
+
+int main() {
+    int num;
+
+    scanf("%d", &num);
+    print_bits(num);
+
     return 0;
 }
