@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int num = 0, flipped = 0;
+    int num , flipped ;
 
-    scanf("%u", &num);
+    scanf("%d", &num);
     flipped = ~num;
-    printf("%u\n", flipped);
+    printf("%d\n", flipped);
 
     return 0;
 }
