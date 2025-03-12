@@ -4,8 +4,8 @@ void max(int ar[], int n){
     int m ;
     m = ar[0];
     for(int i = 0; i < n ; i++){
-        if (arr[0]< arr[i]){
-            m = arr[i];
+        if (ar[0]< ar[i]){
+            m = ar[i];
         }
     }
     printf("%d",m);
