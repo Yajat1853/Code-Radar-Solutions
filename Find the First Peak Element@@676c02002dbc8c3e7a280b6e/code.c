@@ -17,9 +17,9 @@ int main() {
             printf("%d",arr[i]);
             break;
         }
-        else{
+    }
+    else{
             printf("%d",arr[n-1]);
             break;
         }
-    }
 }
