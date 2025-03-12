@@ -18,8 +18,6 @@ int main() {
             break;
         }
     }
-    else{
-            printf("%d",arr[n-1]);
-            break;
-        }
+    printf("%d",arr[n-1]);
+        
 }
