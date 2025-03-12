@@ -19,10 +19,7 @@ int main() {
             break;
         }
 
-        else if (arr[i] < arr[n-1]){
-            printf("%d",arr[n-1]);
-            break;
-        }
+        
 
     }
 }
