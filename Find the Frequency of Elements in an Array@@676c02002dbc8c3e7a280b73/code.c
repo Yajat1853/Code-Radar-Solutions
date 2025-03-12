@@ -12,6 +12,7 @@ int main() {
         if (arr[i] == arr[i]){
             count ++;
             printf("%d %d\n",arr[i], count);
+            count = 0;
         }
     }
     return 0;
