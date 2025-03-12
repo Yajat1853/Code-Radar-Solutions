@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void max(int ar[], n){
+void max(int ar[], int n){
     int m ;
     m = arr[0];
     for(int i = 0; i < n ; i++){
