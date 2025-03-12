@@ -19,6 +19,7 @@ int main() {
         }
         else{
             printf("%d",arr[n-1]);
+            break;
         }
     }
 }
