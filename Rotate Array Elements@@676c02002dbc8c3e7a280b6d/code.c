@@ -41,7 +41,7 @@ int main() {
     // Perform the circular left shift by splitting the array
     for (int i = 0; i < n; i++) {
         // Place the elements from position (i + m) % n in the new array
-        printf("%d ", arr[(i + m) % n]);
+        printf("%d\n", arr[(i + m) % n]);
     }
     
     return 0;
