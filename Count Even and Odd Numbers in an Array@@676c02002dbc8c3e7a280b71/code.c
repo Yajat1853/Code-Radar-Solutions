@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-    int n,;
+    int n;
     int count_even = 0;
     int count_odd = 0;
     scanf("%d",&n);
