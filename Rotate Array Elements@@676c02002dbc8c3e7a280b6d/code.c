@@ -8,11 +8,11 @@ int main(){
     for(int i = 0; i < n; i++){
         scanf("%d",&arr[i]);
     }
-    
+
     scanf("%d",&m);
 
     for(int i = 0; i < n ; i++){
-        temp[i] = arr[( i + m) % n];
+        temp[i] = arr[(i + m) % n];
     }
     for(int i = 0 ; i < n ;i++){
         printf("%d\n",temp[i]);
