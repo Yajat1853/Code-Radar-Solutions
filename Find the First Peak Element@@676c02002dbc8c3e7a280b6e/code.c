@@ -13,10 +13,13 @@ int main() {
             printf("%d",-1);
             break;
         }
-
         else if(arr[i] > arr[i + 1] && arr[i] > arr[i - 1]){
             printf("%d",arr[i]);
             break;
+            else if (arr[i] < arr[n-1]){
+            printf("%d",arr[n-1]);
+            break;
+            }
         }
 
         
