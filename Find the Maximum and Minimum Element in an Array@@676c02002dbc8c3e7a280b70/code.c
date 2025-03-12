@@ -2,7 +2,7 @@
 void min(int ar[], int n){
     int minimum ;
     minimum = ar[0];
-    for(int i = 0 ;i < n ; i++){
+    for(int i = 1;i < n ; i++){
         if(ar[0] > ar[i]){
             minimum = ar[i];
         }
@@ -12,7 +12,7 @@ void min(int ar[], int n){
 void max(int ar[], int n){
     int m ;
     m = ar[0];
-    for(int i = 0; i < n ; i++){
+    for(int i = 1; i < n ; i++){
         if (ar[0]< ar[i]){
             m = ar[i];
         }
