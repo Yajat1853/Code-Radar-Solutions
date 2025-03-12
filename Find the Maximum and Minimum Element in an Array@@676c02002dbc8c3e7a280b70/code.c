@@ -7,7 +7,7 @@ void min(int ar[], int n){
             minimum = ar[i];
         }
     }
-    printf("%d ",minimum)
+    printf("%d ",minimum);
 }
 void max(int ar[], int n){
     int m ;
@@ -28,5 +28,5 @@ int main() {
     }
     min(arr, n);
     max(arr, n);
-
+    return 0;
 }
