@@ -5,9 +5,9 @@ int main() {
     char m = 'A';
     scanf("%d", &n);
 
-    for (int i = n; i > 0; i--){
-        for(int j = n; j > 0; j--){
-            printf("%c ", m++);
+    for (int i = 1; i >= n; i++){
+        for(int j = 1; j >= n; j++){
+            printf("%c ", 65 - i + 1);
         }
         printf("\n");
     }
