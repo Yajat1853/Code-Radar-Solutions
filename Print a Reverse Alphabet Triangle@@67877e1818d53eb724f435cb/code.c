@@ -5,8 +5,8 @@ int main() {
     char m = 'A';
     scanf("%d", &n);
 
-    for (int i = 1; i >= n; i++){
-        for(int j = 1; j >= n; j++){
+    for (int i = 1; i <= n; i++){
+        for(int j = 1; j <= n; j++){
             printf("%c ", 65 - i + 1);
         }
         printf("\n");
