@@ -7,6 +7,6 @@ int main() {
         for(int j = 1; j <= i; j++){
             printf("%c", 65 + i - 1);
         }
+         printf("\n");
     }
-    printf("\n");
 }
