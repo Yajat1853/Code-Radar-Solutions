@@ -8,4 +8,5 @@ int main() {
             printf("%c", 65 + i - 1);
         }
     }
+    printf("\n");
 }
