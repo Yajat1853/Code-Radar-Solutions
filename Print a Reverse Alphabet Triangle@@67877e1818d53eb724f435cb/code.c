@@ -2,11 +2,12 @@
 
 int main() {
     int n; 
+    char m = 'A';
     scanf("%d", &n);
 
-    for (int i = 1; i <= n; i++){
-        for(int j = 1; j <= n; j++){
-            printf("%c ", 65 + j - 1);
+    for (int i = n; i > n; i--){
+        for(int j = i; j > 0; j--){
+            printf("%c ", m++);
         }
         printf("\n");
     }
