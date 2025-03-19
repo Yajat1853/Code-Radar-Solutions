@@ -6,10 +6,9 @@ int main() {
     scanf("%d", &n);
 
     for (int i = n; i > 0; i--){
-        for(int j = i; j > 0; j--){
-            printf("%c ", 65+p-1);
+        for(int j = 1; j <= i; j){
+            printf("%c ", 65+j-1);
         }
-        p++;
         printf("\n");
     }
 }
