@@ -16,6 +16,7 @@ int main(){
         }
         printf("\n");
         a++;
+        b--;
     }
     return 0;
 }
