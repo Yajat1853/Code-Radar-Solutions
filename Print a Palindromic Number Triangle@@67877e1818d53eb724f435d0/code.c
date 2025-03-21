@@ -2,7 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int a = n;
+    int a = 1;
     for(int i = n; i > 0; i--){
         for(int j = i; j > 1; j--){
             printf(" ");
@@ -11,7 +11,7 @@ int main(){
             printf("%d",j);
         }
         printf("\n");
-        a--;
+        a++;
     }
     return 0;
 }
