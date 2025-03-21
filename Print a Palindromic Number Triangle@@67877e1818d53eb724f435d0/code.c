@@ -11,11 +11,11 @@ int main(){
         for(int j = 1; j <= a; j++){
             printf("%d",j);
         }
-        for(int k = b; k > 0; k--){
-            printf("%d",k);
-        }
         printf("\n");
         a++;
     }
+    for(int k = b; k > 0; k--){
+            printf("%d",k);
+        }
     return 0;
 }
