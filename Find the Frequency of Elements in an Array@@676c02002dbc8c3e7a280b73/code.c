@@ -19,7 +19,7 @@ int main() {
         if (already_counted){
             continue;
         }
-        int count = 1;
+        int count = 0;
         for(int j = 1; j < n; j++){
             if (arr[i] == arr[j]){
             count ++;
