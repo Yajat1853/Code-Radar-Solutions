@@ -12,7 +12,7 @@ int main() {
         
         for(int k = 0; k < i; k++){
             if(arr[i] == arr[k]){
-                already_count = 1;
+                already_counted = 1;
                 break;
             }
         }
